@@ -3,10 +3,10 @@ from distutils.core import setup, Extension
 module1 = Extension('pyGTMx',
                     define_macros = [('MAJOR_VERSION', '0'),
                                      ('MINOR_VERSION', '1')],
-                    include_dirs = ['/usr/include/python2.6',
-                                    '/opt/gtm/V53003'],
-                    libraries = ['gtmshr','python2.6'],
-                    library_dirs = ['/opt/gtm/V53003'],
+                    include_dirs = ['/usr/include/pythonPYVER',
+                                    'GTMDIST'],
+                    libraries = ['gtmshr','pythonPYVER'],
+                    library_dirs = ['GTMDIST'],
                     sources = ['pyGTMx.c'])
 
 setup (name = 'pyGTMx',

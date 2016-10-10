@@ -1,4 +1,4 @@
-#!/usr/bin/python2.6
+#!/usr/bin/python
 import pyGTMx
 pyGTMx.mstart()
 x="^pyGTM"
@@ -8,7 +8,7 @@ y=""
 z=""
 print "y=", y
 print "z=", z
-z=pyGTMx.mget(x,y)
+z=pyGTMx.mget(x)
 print "y=", y
 print "z=", z
 z=pyGTMx.mkil(x)

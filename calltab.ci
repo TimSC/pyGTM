@@ -3,3 +3,5 @@ get	    : void           get^pyGTMm(I:gtm_char_t*, O:gtm_char_t*)
 kil	    : void           kil^pyGTMm(I:gtm_char_t*)
 tst	    : void           tst^pyGTMm(I:gtm_char_t*)
 sts	    : void           sts^pyGTMm(I:gtm_char_t*, O:gtm_char_t*)
+order       : void           order^pyGTMm(I:gtm_char_t*, I:gtm_char_t*,O:gtm_char_t*)
+

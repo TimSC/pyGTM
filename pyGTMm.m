@@ -16,8 +16,13 @@ tst(ref) ;
    e  s ^d(ref)=1+^d(ref)
    q
 sts(ref,val) ;
-   i '$d(^d(ref)) s ^e(ref)=0
+   i '$d(^d(ref)) s ^d(ref)=0
    s val=ref
    q
+ord(ref,key,newKey) ; Order through a global
+   s newKey=$o(@ref@(key))
+   q
+
+
 
 
